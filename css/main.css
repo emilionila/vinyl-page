@@ -46,11 +46,45 @@ iframe {
 
 .people-card{
     padding: 15px;
-    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.28);
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.28);
     border-radius: 15px;
 }
 
 .team-mate{
     width: 250px;
     max-width: 100%;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#email{
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#submit{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+#submit:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.2s ease-in-out;
 }

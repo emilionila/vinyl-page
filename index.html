@@ -16,16 +16,16 @@
         <a href="#">
             <img class="nav-logo" src="images/white-logo_1.svg" alt="company logo">
         </a>
-        <div class="nav-links">
-            <div class="nav-item">топ</div>
-            <div class="nav-item">інфо</div>
-            <div class="nav-item">блог</div>
-        </div>
+        <nav class="nav-links">
+            <a href="#top" class="nav-item">топ</a>
+            <a href="#how-works" class="nav-item">інфо</a>
+            <a href="#contact" class="nav-item">контакти</a>
+        </nav>
     </div>
 </header>
 
 <main class="container">
-    <section class="top">
+    <section id="top" class="top">
         <h2 class="h2">ТОП-5 музичних хітів Apple Music</h2>
         <div class="top-container">
             <img src="images/apple_music_art.jpg" alt="apple_music_art" class="top-image">
@@ -41,11 +41,10 @@
         </div>
     </section>
 
-    <section class="how-works">
+    <section id="how-works" class="how-works">
         <h2 class="h2">Як насправді працюють вінілові платівки</h2>
         <div class="video">
             <iframe src="https://www.youtube.com/embed/bw4YmbAKocM" title="How Do Vinyl Records Work? | Earth Lab"
-                    frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
             </iframe>
@@ -73,8 +72,12 @@
         </div>
     </section>
 
-    <section class="form">
-
+    <section id="contact" class="contact">
+        <h2 class="h2">Залиш свій email і ми зв'яжемось з тобою</h2>
+        <form action="https://www.freecodecamp.com/email-submit" class="form">
+            <input type="email" name="email" id="email" placeholder="email">
+            <input type="submit" name="submit" id="submit">
+        </form>
     </section>
 </main>
 
