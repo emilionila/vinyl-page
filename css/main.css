@@ -35,3 +35,22 @@ iframe {
     width: 972px;
     height: 547px;
 }
+
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.people-card{
+    padding: 15px;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.28);
+    border-radius: 15px;
+}
+
+.team-mate{
+    width: 250px;
+    max-width: 100%;
+}
