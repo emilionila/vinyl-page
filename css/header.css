@@ -1,5 +1,7 @@
 .header {
     position: fixed;
+    max-width: 2000px;
+    margin: 0 auto;
     z-index: 1;
     top: 0;
     left: 0;
@@ -31,4 +33,13 @@
 .nav-item {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 1000px){
+    .nav-links{
+        display: none;
+    }
+    .header-nav{
+        justify-content: center;
+    }
 }

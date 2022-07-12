@@ -26,6 +26,7 @@
     font-size: 20px;
     margin: 30px;
 }
+
 .video{
     display: flex;
     justify-content: center;
@@ -34,6 +35,7 @@
 iframe {
     width: 972px;
     height: 547px;
+    max-width: 100%;
 }
 
 .people{
@@ -87,4 +89,27 @@ iframe {
     background-color: white;
     border: 1px solid black;
     transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 1000px){
+    .container{
+        margin: 140px 50px 100px;
+    }
+    iframe {
+        width: 600px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 785px){
+    .top-container {
+        flex-direction: column-reverse;
+        gap: 5px;
+    }
+    .top-item{
+        margin: 15px;
+    }
+    .top-image {
+        width: 400px;
+    }
 }

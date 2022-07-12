@@ -1,5 +1,6 @@
 .footer{
     background-color: #000;
+    max-width: 2000px;
     padding: 30px;
     color: white;
     display: flex;
@@ -7,6 +8,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    margin: 0 auto;
 }
 
 .footer-list{
@@ -17,5 +19,16 @@
 
 .footer-list-item{
     list-style-type: none;
+}
+
+@media (max-width: 1000px){
+    .footer{
+        gap: 35px;
+    }
+    .footer-list{
+        grid-template-columns: 1fr ;
+        align-items: center;
+        gap: 15px;
+    }
 }
 
